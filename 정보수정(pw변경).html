@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        img{
-            position: absolute;
-            left: 50px;
-            top: 58px;
-            z-index: 2;
-        }
-    </style>
-    <title>PLANET-09</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-    <div id = "layout">
-        <div id = "main">
-            <div id="title">PLANET-09</div>
-            <div id="공구추가">공구추가</div>
-            <div id = "플러스">+</div>
-            <img src="480px-Search_Icon.png" width="23" height="30">
-            <div id = "Rectangle"></div>
-            <div id = "로그아웃">로그아웃</div>
-            <div id = "구분선">|</div>
-            <div id = "MYPAGE">MYPAGE</div>
+    <head>
+        <title>planet-09</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" href = "style2.css">
+    </head>
+
+    <body>
+        <div class = "container">
+            <div class = "line1"></div>
+            <div class = "item1"> 
+                <button id = "Rectangle">
+                    <img src = "search.svg" id ="search_image">
+                    <span id = "search">search</span>
+                </button>
+            </div>
+            <div class = "item2">
+                <img src = "logo.svg" id = "logo">
+            </div>
+            <div class  ="item3">
+                <div id = "profile">
+                    <button class = "top_button">로그아웃</button>
+                    <span id = "top_line">|</span>
+                    <button class = "top_button">마이페이지</button>
+                </div>
+            </div>
+            <div class = "item4">
+                <div id = "설정">설정</div>
+                <div id = "계정">계정</div>
+            </div>
+            <div class = "line2"></div>
+            <div class = "item5">
+                <div id = "닉네임">닉네임</div>
+                <div id = "nickname">ewhain</div>
+            </div>
+            <div class = "item6">
+                <div id = "변경1">변경</div>
+            </div>
+            <div class = "line3"></div>
+
+            <div class = "item7">
+                <div id = "pw">PW</div>
+                <div id = "현재비번">현재 비밀번호</div>
+                <div id = "현재비번칸">
+                    <span id="현재비번문구">현재 비밀번호</span>
+                </div>
+                <div id = "변경비번">변경할 비밀번호</div>
+                <div id = "변경비번칸">
+                    <span id = "변경비번문구">변경할 비밀번호</span>
+                </div>
+                
+                <div id = "변경확인칸">
+                    <span id = "변경확인문구">변경할 비밀번호 확인</span>
+                </div>
+                
+                <button id = "저장btn">저장</button>
+            </div>
+            <id class = "item8">
+                <div id = "변경2">취소</div>
+            </id>
+            <div class = "line4"></div>
+            <div class = "item9">
+                <button id = "email">문의창구:planet_09@ewha.com</button>
+            </div>
         </div>
-        <div id = "info">
-            <div id = "설정">설정</div>
-            <div id = "계정">계정</div>
-            <div id = "Line66"></div>
-            <div id = "닉네임">닉네임</div>
-            <div id = "ewhain">ewhain</div>
-            <div id = "Line65"></div>
-            <div id = "PW">PW</div>
-            <div id = "변경1">변경</div>
-            <div id = "변경2">취소</div>
-            <div id = "현재비번">현재 비밀번호</div>
-            <div id = "현재비번칸"></div>
-            <div id = "현재비번문구">현재 비밀번호</div>
-            <div id = "변경비번">변경할 비밀번호</div>
-            <div id = "변경비번칸"></div>
-            <div id = "변경비번문구">변경할 비밀번호</div>
-            <div id = "변경확인칸"></div>
-            <div id = "변경확인문구">변경할 비밀번호 확인</div>
-            <button id = "저장btn">저장</button>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
